@@ -1,0 +1,36 @@
+@import "../utilities/variables";
+
+$font-primary: "Lato", sans-serif;
+$f-w-300: 300;
+$f-w-700: 700;
+$blockquote-size: 1.5em;
+$blockquote-style: italic;
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+.headline-primary {
+  color: $light-green;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: $f-w-300;
+  color: $dark-grey;
+}
+
+.link {
+  color: $light-blue;
+  font-weight: $f-w-700;
+}
+
+.blockquote {
+  font-size: $blockquote-size;
+  font-weight: $f-w-300;
+  font-style: $blockquote-style;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $light-green;
+  border-radius: 5px;
+}

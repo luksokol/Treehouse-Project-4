@@ -1,0 +1,18 @@
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+
+.form {
+  flex-basis: 100%;
+}
+
+.input {
+  @include form-input;
+}
+
+.hidden {
+  @include hidden;
+}
